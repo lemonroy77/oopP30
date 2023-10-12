@@ -20,7 +20,7 @@ class BinTree{
 	char data; BinTree L,R;
 	BinTree(char x){ data=x; }
 	BinTree(){ ; }
-	static BinTree create( ReadData r){//建树=造根，根有两种情况：空、非空
+	BinTree create( ReadData r){//建树=造根，根有两种情况：空、非空
 		//空-->return null;
 		//非空 ->造结点t + 给t的所有域赋值
 		
