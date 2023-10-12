@@ -56,7 +56,6 @@ class BinTree{
         while(t != null || sk.isEmpty() == false){
             if(t != null){
                 System.out.print(t.data + " ");
-                // push(sk, t);
                 sk.push(t);
                 t = t.L;
             }else{
